@@ -1,0 +1,23 @@
+[12:03 AM, 10/30/2025] Katapa ♾️: # Read the three sides from the user
+a = int(input())
+b = int(input())
+c = int(input())
+
+# Check the type of triangle
+if a == b == c:
+    print("That's a equilateral triangle")
+elif a == b or b == c or a == c:
+    print("That's a isosceles triangle")
+else:
+    print("That's a scalene triangle")
+[12:04 AM, 10/30/2025] Katapa ♾️: # Read input
+n = int(input())
+
+# Calculate square of the number
+square = n * n
+
+# Check if the square ends with the number itself
+if str(square).endswith(str(n)):
+    print("Automorphic")
+else:
+    print("Not Automorphic")
